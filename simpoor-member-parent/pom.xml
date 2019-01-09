@@ -2,14 +2,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>simpoor-parent</artifactId>
+        <groupId>poor.man.works.hard</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>poor.man.works.hard</groupId>
-    <artifactId>simpoor-parent</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-
+    <description>会员系统</description>
     <modules>
-        <module>simpoor-member-parent</module>
+        <module>simpoor-member-backend</module>
     </modules>
+    <artifactId>simpoor-member-parent</artifactId>
+
+
 </project>
